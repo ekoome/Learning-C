@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * This function reads a line from the standard input and stores it in a dynamically allocated array.
+ *
+ * @param dest A pointer to a char pointer where the dynamically allocated array will be stored.
+ * @return 0 if the operation was successful, 1 if memory allocation failed.
+ */
 int scan_f(char **dest)
 {
     char temp[100]; // Temporary buffer to read user input
